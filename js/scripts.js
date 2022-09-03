@@ -1,20 +1,5 @@
-﻿$('.flexslider').flexslider();
-	
-	var responsive = $('.responsive');
-	var nav = $('nav');
-	
-	var responsiveIcon = function(selector, item){
-		selector.on('click', function(){
-			item.slideToggle();
-		});
-	};
-	
-	responsiveIcon(responsive, nav);
-	
-	var accordion = $('.accordion');
-	accordion.accordion({
-	active: false,
-	collapsible: true,
-	heightStyle: "content"
-	});
-		
+import $ from 'jquery';
+
+$(document).ready(function() {
+  console.log(`jquery ready`);
+});

@@ -1,0 +1,1 @@
+{"version":3,"file":"scripts.js","names":["$","document","ready","console","log"],"sources":["../scripts.js"],"sourcesContent":["import $ from 'jquery';\r\n\r\n$(document).ready(function() {\r\n  console.log(`jquery ready`);\r\n});"],"mappings":";;AAAA;;;;AAEA,IAAAA,kBAAA,EAAEC,QAAF,EAAYC,KAAZ,CAAkB,YAAW;EAC3BC,OAAO,CAACC,GAAR;AACD,CAFD"}
