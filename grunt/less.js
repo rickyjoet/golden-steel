@@ -2,7 +2,7 @@ module.exports = {
 
   options: {
     sourceMap: true,
-    compress: true,
+   // compress: true,
   },
 
   default: {
