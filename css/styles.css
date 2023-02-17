@@ -21,22 +21,24 @@
   color: white;
 }
 .logo {
-  width: mkdir 5vw;
+  width: max-content;
+  height: max-content;
   background: #000000;
   border: 5px solid #ffffff;
+  align-self: top;
 }
 .outer {
   display: flex;
 }
 .outer > p {
   flex: 1;
-  height: 70px;
+  height: 100px;
   line-height: 70px;
   background: #000000;
 }
 .outer > p > a {
   text-decoration: none;
-  color: white;
+  color: #ff0000;
 }
 .outer > p .logo {
   flex: 1;
@@ -47,6 +49,6 @@ p {
 }
 body {
   margin: 0px;
-  background-color: red;
+  background-color: #ffffff;
 }
 /*# sourceMappingURL=css/styles.css.map */
