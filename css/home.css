@@ -1,0 +1,37 @@
+.wrapper {
+  max-width: 1728px;
+  margin: 0 auto;
+}
+.wrapper .c1 {
+  position: relative;
+}
+.wrapper .c1 .the-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.wrapper .c1 .the-content h1 {
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #fff;
+  font-family: 'segoe_uibold';
+}
+.wrapper .c1 .the-content video {
+  width: 560px;
+}
+.wrapper .c1 .the-content p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  font-family: 'robotoregular';
+  margin: 4% 0;
+}
+.wrapper .c1 .the-content a {
+  color: #fff;
+  background: #E20C13;
+  font-family: 'segoe_uibold';
+}
+/*# sourceMappingURL=css/home.css.map */
