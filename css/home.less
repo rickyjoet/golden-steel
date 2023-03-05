@@ -5,6 +5,10 @@
     .c1 {
         position: relative;
 
+        img {
+            width:100%;
+        }
+
         .the-content {
             position: absolute;
             top: 50%;
@@ -40,12 +44,28 @@
     }
 
     .c2 {
-        .first {
-
-        }
+        display: flex;
+        position: relative;
+        margin: -1% 0 0 0;
+        .first, 
         .second {
+            .the-content {
+                transform: translate(0, -50%);
+                top: 78%;
+                h2{
+                    font-size: 24px;
+                    line-height: 32px;
+                    color: #fff;
+                    font-family: 'segoe_uibold';
+                }
+                a {
+                    background: #fff;
+                    color: #000;
+                }
+            }
 
         }
+    
 
     }
 

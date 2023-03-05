@@ -5,6 +5,9 @@
 .wrapper .c1 {
   position: relative;
 }
+.wrapper .c1 img {
+  width: 100%;
+}
 .wrapper .c1 .the-content {
   position: absolute;
   top: 50%;
@@ -33,5 +36,27 @@
   color: #fff;
   background: #E20C13;
   font-family: 'segoe_uibold';
+}
+.wrapper .c2 {
+  display: flex;
+  position: relative;
+  margin: -1% 0 0 0;
+}
+.wrapper .c2 .first .the-content,
+.wrapper .c2 .second .the-content {
+  transform: translate(0, -50%);
+  top: 78%;
+}
+.wrapper .c2 .first .the-content h2,
+.wrapper .c2 .second .the-content h2 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  font-family: 'segoe_uibold';
+}
+.wrapper .c2 .first .the-content a,
+.wrapper .c2 .second .the-content a {
+  background: #fff;
+  color: #000;
 }
 /*# sourceMappingURL=css/home.css.map */
