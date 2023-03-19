@@ -59,4 +59,22 @@
   background: #fff;
   color: #000;
 }
+.wrapper .c3 {
+  position: relative;
+  margin: -1% 0 0;
+}
+.wrapper .c3 .the-content {
+  transform: translate(0, -50%);
+  top: 78%;
+}
+.wrapper .c3 .the-content h2 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  font-family: 'segoe_uibold';
+}
+.wrapper .c3 .the-content a {
+  background: #fff;
+  color: #000;
+}
 /*# sourceMappingURL=css/home.css.map */
