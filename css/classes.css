@@ -26,4 +26,11 @@
   justify-content: center;
   margin: 0 0 1vw;
 }
+@media screen and (max-width: 1728px) {
+  .cta {
+    width: 10.5vw;
+    font-size: 1vw;
+    height: 2.7vw;
+  }
+}
 /*# sourceMappingURL=css/classes.css.map */

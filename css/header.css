@@ -1,0 +1,29 @@
+header {
+  max-width: 1728px;
+  margin: 0 auto;
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  height: 100px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+header ul li a {
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'segoe_uibold';
+  text-decoration: none;
+  color: #000000;
+}
+@media screen and (max-width: 1728px) {
+  header ul li a {
+    font-size: 1vw;
+  }
+}
+/*# sourceMappingURL=css/header.css.map */
