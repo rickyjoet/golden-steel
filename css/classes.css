@@ -3,6 +3,25 @@
   position: relative;
   flex-basis: 50%;
 }
+@media screen and (max-width: 430px) {
+  .first,
+  .second {
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .desktop {
+    display: none;
+  }
+}
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 430px) {
+  .mobile {
+    display: block;
+  }
+}
 .the-content {
   position: absolute;
   top: 50%;
@@ -31,6 +50,13 @@
     width: 10.5vw;
     font-size: 1vw;
     height: 2.7vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .cta {
+    width: 42.2vw;
+    height: 10.6vw;
+    font-size: 4.5vw;
   }
 }
 /*# sourceMappingURL=css/classes.css.map */

@@ -50,6 +50,11 @@ header ul li a {
     font-size: 1vw;
   }
 }
+@media screen and (max-width: 1728px) {
+  header ul li a img {
+    width: 5.8vw;
+  }
+}
 footer {
   max-width: 1728px;
   margin: 3% auto;
@@ -67,6 +72,11 @@ footer {
 footer img {
   margin: 0 0 1vw;
 }
+@media screen and (max-width: 1728px) {
+  footer img {
+    width: 7.2vw;
+  }
+}
 footer address {
   margin: 0 0 1vw;
 }
@@ -78,6 +88,25 @@ footer address a {
 .second {
   position: relative;
   flex-basis: 50%;
+}
+@media screen and (max-width: 430px) {
+  .first,
+  .second {
+    flex-basis: 100%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .desktop {
+    display: none;
+  }
+}
+.mobile {
+  display: none;
+}
+@media screen and (max-width: 430px) {
+  .mobile {
+    display: block;
+  }
 }
 .the-content {
   position: absolute;
@@ -107,6 +136,13 @@ footer address a {
     width: 10.5vw;
     font-size: 1vw;
     height: 2.7vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .cta {
+    width: 42.2vw;
+    height: 10.6vw;
+    font-size: 4.5vw;
   }
 }
 /*# sourceMappingURL=css/styles.css.map */

@@ -15,6 +15,11 @@ footer {
 footer img {
   margin: 0 0 1vw;
 }
+@media screen and (max-width: 1728px) {
+  footer img {
+    width: 7.2vw;
+  }
+}
 footer address {
   margin: 0 0 1vw;
 }

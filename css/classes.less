@@ -1,6 +1,23 @@
 .first, .second {
+    @media screen and (max-width: 430px){
+        flex-basis: 100%;
+    }
+
     position:relative;
     flex-basis: 50%;
+}
+
+.desktop {
+    @media screen and (max-width:430px){
+        display:none;
+    }
+}
+
+.mobile {
+    @media screen and (max-width:430px) {
+        display:block;
+    }
+    display:none;
 }
 
 .the-content {
@@ -15,6 +32,11 @@
         width: 10.5vw;
         font-size: 1vw;
         height: 2.7vw;
+    }
+    @media screen and (max-width:430px) {
+        width: 42.2vw;
+        height: 10.6vw;
+        font-size: 4.5vw;
     }
     text-decoration: none;
     color: #fff;

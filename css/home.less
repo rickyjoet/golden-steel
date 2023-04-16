@@ -62,6 +62,10 @@
                     font-size: 1.4vw;
                     line-height: 2vw;
                 }
+                @media screen and (max-width: 430px) {
+                    font-size: 6vw;
+                    line-height: 8vw;
+                }
                 font-size: 24px;
                 line-height: 32px;
                 color: #fff;
@@ -75,12 +79,21 @@
     }
 
     .c2 {
+        @media screen and (max-width: 430px){
+            flex-wrap:wrap;
+        }
+
         display: flex;
         position: relative;
         margin: -1% 0 0 0;
+
         .first, 
         .second {
             .the-content {
+                @media screen and (max-width: 430px) {
+                    transform: translate(-50%, -50%);
+                    top: 74%;
+                }
                 transform: translate(0, -50%);
                 top: 78%;
                
@@ -97,7 +110,9 @@
         margin: -1% 0 0;
 
         .the-content {
-    
+            @media screen and (max-width:430px) {
+                top: 79%;
+            }
            
         }
 
