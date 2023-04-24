@@ -2,7 +2,44 @@ header {
   max-width: 1728px;
   margin: 0 auto;
 
+  .mobile-nav {
+    @media screen and (max-width: 430px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      .lines {
+        position: absolute;
+        left: 4%;
+        
+        span {
+          border-top: 2px solid;
+          width: 12vw;
+          height: 1px;
+          display: block;
+          margin: 0 0 10px;
+
+          &:last-of-type {
+            margin: 0;
+          }
+        }
+      }
+    }
+
+    display:none;
+  }
   ul {
+    @media screen and (max-width: 430px) {
+      display:block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      z-index: 9999;
+      top: 0%;
+    }
+
     list-style-type: none;
     display: flex;
     justify-content: space-around;
@@ -13,10 +50,66 @@ header {
     align-items: center;
 
       li {
+        @media screen and (max-width:430px) {
+          flex-basis: 96%;
+          text-align: center;
+          border-top: 1px solid;
+          border-bottom: 1px solid;
+          height: 19vw;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 3vw 0;
+
+          &:first-of-type {
+            flex-basis: 100%;
+            border: none;
+            position: relative;
+
+            .lines {
+              position: absolute;
+              right: 17%;
+              top: 50%;
+              transform: translate(0, -50%);
+
+              span {
+                border-top: 2px solid;
+                width: 10vw;
+                display: block;
+                position: absolute;
+                rotate: -45deg;
+
+                &:last-of-type {
+                  rotate: 45deg;
+                }
+              }
+            }
+            img {
+              width: 22vw;
+            }
+          }
+            &:last-of-type {
+              display: flex;
+              background: #E20c13;
+
+              a {
+                color: #fff;
+              }
+            }
+          }
+        
+
+       
         a {
           @media screen and (max-width: 1728px){
             font-size: 1vw;
           }
+
+          @media screen and (max-width:430px) {
+            font-size: 6vw;
+            line-height: 8vw;
+          }
+
           font-size: 16px;
           line-height: 21px;
           font-weight: bold;

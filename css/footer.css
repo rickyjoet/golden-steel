@@ -12,12 +12,33 @@ footer {
     line-height: 1.4vw;
   }
 }
+@media screen and (max-width: 430px) {
+  footer {
+    font-size: 3.7vw;
+    line-height: 5.5vw;
+  }
+}
 footer img {
   margin: 0 0 1vw;
 }
 @media screen and (max-width: 1728px) {
   footer img {
     width: 7.2vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  footer img {
+    width: 29.1vw;
+  }
+}
+footer address,
+footer p {
+  font-family: 'robotoregular';
+}
+@media screen and (max-width: 430px) {
+  footer address,
+  footer p {
+    margin: 4vw 0 !important;
   }
 }
 footer address {

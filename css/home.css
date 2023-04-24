@@ -5,6 +5,12 @@
 .wrapper .c1 {
   position: relative;
 }
+@media screen and (max-width: 430px) {
+  .wrapper .c1 {
+    background: #000;
+    padding: 4vw 0;
+  }
+}
 .wrapper .c1 img {
   width: 100%;
 }
@@ -14,6 +20,14 @@
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+}
+@media screen and (max-width: 430px) {
+  .wrapper .c1 .the-content {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: translate(0);
+  }
 }
 .wrapper .c1 .the-content h1 {
   font-size: 24px;
@@ -28,12 +42,23 @@
     line-height: 2vw;
   }
 }
+@media screen and (max-width: 430px) {
+  .wrapper .c1 .the-content h1 {
+    font-size: 6vw;
+    line-height: 8vw;
+  }
+}
 .wrapper .c1 .the-content video {
   width: 560px;
 }
 @media screen and (max-width: 1728px) {
   .wrapper .c1 .the-content video {
     width: 32.5vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .wrapper .c1 .the-content video {
+    width: 100%;
   }
 }
 .wrapper .c1 .the-content p {
@@ -47,6 +72,12 @@
   .wrapper .c1 .the-content p {
     font-size: 1vw;
     line-height: 1.4vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .wrapper .c1 .the-content p {
+    font-size: 3.7vw;
+    line-height: 5.5vw;
   }
 }
 .wrapper .c1 .the-content a {
