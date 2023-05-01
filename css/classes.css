@@ -22,6 +22,9 @@
     display: block;
   }
 }
+.show-nav {
+  top: 0;
+}
 .the-content {
   position: absolute;
   top: 50%;

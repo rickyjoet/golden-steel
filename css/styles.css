@@ -69,7 +69,8 @@ header ul {
     height: 100%;
     background: #fff;
     z-index: 9999;
-    top: 0%;
+    top: -100%;
+    transition: top 0.5s;
   }
 }
 @media screen and (max-width: 430px) {
@@ -214,6 +215,9 @@ footer address a {
   .mobile {
     display: block;
   }
+}
+.show-nav {
+  top: 0;
 }
 .the-content {
   position: absolute;
