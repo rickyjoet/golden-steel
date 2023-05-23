@@ -9,9 +9,7 @@
         }
         position: relative;
 
-        img {
-       
-        }
+      
         h1 {
             text-align: center;
             font-family: 'segoe_uibold';
@@ -29,6 +27,28 @@
                 &.right-saber {
                     position: relative;
                     left: 76px;
+                }
+            }
+           
+        }
+        .video {
+            background: black;
+            height: 315px;
+            position: relative;
+            text-align: center;
+
+            video {
+                height: 315px;
+            }
+            img {
+                position: absolute;
+                top: 50%;
+                transform: translate(0px , -50%);
+                &.left {
+                    left: 66px;
+                }
+                &.right {
+                    right: 66px;
                 }
             }
         }
@@ -61,15 +81,7 @@
                 font-family: 'segoe_uibold';
             }
 
-            video {
-                @media screen and (max-width: 1728px) {
-                    width: 32.5vw;
-                }
-                @media screen and (max-width: 430px) {
-                    width: 100%;
-                }
-                width: 560px;
-            }
+        
             p {
                 @media screen and (max-width: 1728px) {
                     font-size: 1vw;
