@@ -6,6 +6,10 @@
   width: 1030px;
   margin: 0 auto;
 }
+.wrapper .class-page h2 {
+  text-align: center;
+  margin: 35px 0 10px;
+}
 .wrapper .class-page .c1 {
   position: relative;
 }
@@ -119,5 +123,9 @@
   text-align: left;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+.wrapper .class-page .c2 p {
+  text-align: left;
+  margin: 0 0 20px;
 }
 /*# sourceMappingURL=css/class-page.css.map */
