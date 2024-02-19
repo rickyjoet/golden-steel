@@ -1,153 +1,149 @@
 .wrapper {
-    max-width: 1728px;
+  max-width: 1728px;
+  margin: 0 auto;
+  .class-page {
+    width: 1030px;
     margin: 0 auto;
-.class-page {
- width: 1030px;
- margin: 0 auto;
 
- h2 {
-    text-align: center;
-    margin: 35px 0 10px;
- }
+    h2 {
+      text-align: center;
+      margin: 35px 0 10px;
+    }
 
     .c1 {
-        @media screen and (max-width: 430px) {
-            background:#000;
-            padding: 4vw 0;
-        }
-        position: relative;
+      @media screen and (max-width: 430px) {
+        background: #000;
+        padding: 4vw 0;
+      }
+      position: relative;
 
-      
-        h1 {
-            text-align: center;
-            font-family: 'segoe_uibold';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 32px;
-            line-height: 43px;
-
-            img {
-                width: 119px;
-                &.left-saber {
-                    position: relative;
-                    right: 76px;
-                }
-                &.right-saber {
-                    position: relative;
-                    left: 76px;
-                }
-            }
-           
-        }
-        .video {
-            background: black;
-            height: 315px;
-            position: relative;
-            text-align: center;
-
-            video {
-                height: 315px;
-            }
-            img {
-                position: absolute;
-                top: 50%;
-                transform: translate(0px , -50%);
-                &.left {
-                    left: 66px;
-                }
-                &.right {
-                    right: 66px;
-                }
-            }
-        }
-        .the-content {
-            @media screen and (max-width: 430px) {
-                position: relative;
-                top: 0;
-                left: 0;
-                transform: translate(0);
-            }
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate( -50%, -50%);
-            text-align: center;
-
-            h1 {
-                @media screen and (max-width:1728px) {
-                    font-size: 1.5vw;
-                    line-height: 2vw;
-                }
-                @media screen and (max-width: 430px) {
-                    font-size: 6vw;
-                    line-height: 8vw;
-                }
-                font-size: 24px;
-                line-height: 32px;
-                text-align: center;
-                color: #fff;
-                font-family: 'segoe_uibold';
-            }
-
-        
-            p {
-                @media screen and (max-width: 1728px) {
-                    font-size: 1vw;
-                    line-height: 1.4vw;
-                }
-                @media screen and (max-width: 430px) {
-                    font-size: 3.7vw;
-                    line-height: 5.5vw;
-                }
-                font-size: 16px;
-                line-height: 24px;
-                color: #fff;
-                font-family: 'robotoregular';
-                margin: 4% 0;
-            }
-            a {
-                color: #fff;
-                background: #E20C13;
-                font-family: 'segoe_uibold';
-            }
-        }
-
-        p {
-            font-family: 'robotoregular';
-            font-size: 16px;
-            line-height: 24px;
-            text-align: left;
-            margin-top: 40px;
-            margin-bottom: 40px;
-        }
-
-    }
-.c2,.c3 {
-    div {
-    width: 50%;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%,0);
-    }
- p {
-    text-align: left;
-    margin: 0 0 20px;
- }
- ol {
-    padding: 0;
-    list-style-position: inside;
-}
-}
-.c3 {
-    p {
+      h1 {
         text-align: center;
-    }
-    div {
-        p {
-            text-align: left;
-        }
-    }
-}    
-}
+        font-family: "segoe_uibold";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 43px;
 
+        img {
+          width: 119px;
+          &.left-saber {
+            position: relative;
+            right: 76px;
+          }
+          &.right-saber {
+            position: relative;
+            left: 76px;
+          }
+        }
+      }
+      .video {
+        background: black;
+        height: 315px;
+        position: relative;
+        text-align: center;
+
+        video {
+          height: 315px;
+        }
+        img {
+          position: absolute;
+          top: 50%;
+          transform: translate(0px, -50%);
+          &.left {
+            left: 66px;
+          }
+          &.right {
+            right: 66px;
+          }
+        }
+      }
+      .the-content {
+        @media screen and (max-width: 430px) {
+          position: relative;
+          top: 0;
+          left: 0;
+          transform: translate(0);
+        }
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+        h1 {
+          @media screen and (max-width: 1728px) {
+            font-size: 1.5vw;
+            line-height: 2vw;
+          }
+          @media screen and (max-width: 430px) {
+            font-size: 6vw;
+            line-height: 8vw;
+          }
+          font-size: 24px;
+          line-height: 32px;
+          text-align: center;
+          color: #fff;
+          font-family: "segoe_uibold";
+        }
+
+        p {
+          @media screen and (max-width: 1728px) {
+            font-size: 1vw;
+            line-height: 1.4vw;
+          }
+          @media screen and (max-width: 430px) {
+            font-size: 3.7vw;
+            line-height: 5.5vw;
+          }
+          font-size: 16px;
+          line-height: 24px;
+          color: #fff;
+          font-family: "robotoregular";
+          margin: 4% 0;
+        }
+        a {
+          color: #fff;
+          background: #e20c13;
+          font-family: "segoe_uibold";
+        }
+      }
+
+      p {
+        font-family: "robotoregular";
+        font-size: 16px;
+        line-height: 24px;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    }
+    .c2,
+    .c3 {
+      div {
+        width: 50%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
+      }
+      p {
+        text-align: left;
+        margin: 0 0 20px;
+      }
+      ol {
+        padding: 0;
+        list-style-position: inside;
+      }
+    }
+    .c3 {
+      p {
+        text-align: center;
+      }
+      div {
+        p {
+          text-align: left;
+        }
+      }
+    }
+  }
 }
