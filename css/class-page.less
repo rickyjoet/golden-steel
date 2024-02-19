@@ -122,12 +122,32 @@
         }
 
     }
-.c2 {
+.c2,.c3 {
+    div {
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    }
  p {
     text-align: left;
     margin: 0 0 20px;
  }
+ ol {
+    padding: 0;
+    list-style-position: inside;
 }
-    
 }
+.c3 {
+    p {
+        text-align: center;
+    }
+    div {
+        p {
+            text-align: left;
+        }
+    }
+}    
+}
+
 }

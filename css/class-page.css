@@ -124,8 +124,27 @@
   margin-top: 40px;
   margin-bottom: 40px;
 }
-.wrapper .class-page .c2 p {
+.wrapper .class-page .c2 div,
+.wrapper .class-page .c3 div {
+  width: 50%;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.wrapper .class-page .c2 p,
+.wrapper .class-page .c3 p {
   text-align: left;
   margin: 0 0 20px;
+}
+.wrapper .class-page .c2 ol,
+.wrapper .class-page .c3 ol {
+  padding: 0;
+  list-style-position: inside;
+}
+.wrapper .class-page .c3 p {
+  text-align: center;
+}
+.wrapper .class-page .c3 div p {
+  text-align: left;
 }
 /*# sourceMappingURL=css/class-page.css.map */
