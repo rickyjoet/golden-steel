@@ -165,4 +165,12 @@
   color: #fff;
   border: 1px solid #000;
 }
+.wrapper .class-page .c4 ul {
+  display: inline-block;
+  list-style-position: outside;
+  text-align: left;
+}
+.wrapper .class-page .c4 ul:first-of-type {
+  margin: 0 20px 0 0;
+}
 /*# sourceMappingURL=css/class-page.css.map */
