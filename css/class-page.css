@@ -153,4 +153,16 @@
 .wrapper .class-page .c3 div p {
   text-align: left;
 }
+.wrapper .class-page .c4 {
+  text-align: center;
+  margin: 20px 0;
+}
+.wrapper .class-page .c4 p {
+  text-align: center;
+}
+.wrapper .class-page .c4 a {
+  background: #E20C13;
+  color: #fff;
+  border: 1px solid #000;
+}
 /*# sourceMappingURL=css/class-page.css.map */
