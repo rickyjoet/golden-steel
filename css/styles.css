@@ -287,7 +287,7 @@ footer address a {
   }
 }
 .headers {
-  background-image: url(../GSAA 2022 assets/graphics/saber-left.png), url(../GSAA 2022 assets/graphics/saber-right.png);
+  background-image: url("../GSAA 2022 assets/graphics/saber-left.png"), url("../GSAA 2022 assets/graphics/saber-right.png");
   background-repeat: no-repeat;
   background-position: 25%, 75%;
 }
