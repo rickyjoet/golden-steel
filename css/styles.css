@@ -14,13 +14,36 @@ img,
 video {
   max-width: 100%;
 }
-p {
+p,
+ul,
+ol {
   text-align: center;
   margin: 0px;
+  font-family: 'robotoregular';
+  font-size: 16px;
+  line-height: 24px;
 }
 body {
   margin: 0px;
   background-color: #ffffff;
+}
+h1,
+h2 {
+  font-size: 32px;
+  text-align: center;
+  font-family: 'segoe_uibold';
+}
+@media screen and (max-width: 1728px) {
+  h1,
+  h2 {
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  h1,
+  h2 {
+    font-size: 6vw;
+  }
 }
 header {
   max-width: 1728px;

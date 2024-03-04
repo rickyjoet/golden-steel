@@ -21,7 +21,7 @@
 }
 .wrapper .class-page .c1 h1 {
   text-align: center;
-  font-family: 'segoe_uibold';
+  font-family: "segoe_uibold";
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -78,7 +78,7 @@
   line-height: 32px;
   text-align: center;
   color: #fff;
-  font-family: 'segoe_uibold';
+  font-family: "segoe_uibold";
 }
 @media screen and (max-width: 1728px) {
   .wrapper .class-page .c1 .the-content h1 {
@@ -96,7 +96,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  font-family: 'robotoregular';
+  font-family: "robotoregular";
   margin: 4% 0;
 }
 @media screen and (max-width: 1728px) {
@@ -113,11 +113,11 @@
 }
 .wrapper .class-page .c1 .the-content a {
   color: #fff;
-  background: #E20C13;
-  font-family: 'segoe_uibold';
+  background: #e20c13;
+  font-family: "segoe_uibold";
 }
 .wrapper .class-page .c1 p {
-  font-family: 'robotoregular';
+  font-family: "robotoregular";
   font-size: 16px;
   line-height: 24px;
   text-align: left;
@@ -125,19 +125,25 @@
   margin-bottom: 40px;
 }
 .wrapper .class-page .c2 div,
-.wrapper .class-page .c3 div {
+.wrapper .class-page .c3 div,
+.wrapper .class-page .c4 div {
   width: 50%;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
 }
 .wrapper .class-page .c2 p,
-.wrapper .class-page .c3 p {
+.wrapper .class-page .c3 p,
+.wrapper .class-page .c4 p {
   text-align: left;
   margin: 0 0 20px;
 }
 .wrapper .class-page .c2 ol,
-.wrapper .class-page .c3 ol {
+.wrapper .class-page .c3 ol,
+.wrapper .class-page .c4 ol,
+.wrapper .class-page .c2 ul,
+.wrapper .class-page .c3 ul,
+.wrapper .class-page .c4 ul {
   padding: 0;
   list-style-position: inside;
 }
