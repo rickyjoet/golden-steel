@@ -209,6 +209,13 @@ footer address,
 footer p {
   font-family: 'robotoregular';
 }
+@media screen and (max-width: 1728px) {
+  footer address,
+  footer p {
+    font-size: 1vw;
+    line-height: 1.5vw;
+  }
+}
 @media screen and (max-width: 430px) {
   footer address,
   footer p {
