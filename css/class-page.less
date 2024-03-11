@@ -15,8 +15,8 @@
     }
     p {
       @media screen and (max-width: 1728px) {
-        font-size: .9vw;
-        line-height: 1.5vw;
+        font-size: .9vw !important;
+        line-height: 1.5vw !important;
       }
       @media screen and (max-width: 430px) {
         font-size: 3.7vw;
@@ -57,6 +57,9 @@
         }
       }
       .video {
+        @media screen and (max-width: 1728px) {
+          height: 18.3vw;
+        }
         background: black;
         height: 315px;
         position: relative;
@@ -73,9 +76,15 @@
           top: 50%;
           transform: translate(0px, -50%);
           &.left {
+            @media screen and (max-width:1728px) {
+              left: 6%;
+            }
             left: 66px;
           }
           &.right {
+            @media screen and (max-width:1728px) {
+              right: 6%;
+            }
             right: 66px;
           }
         }
