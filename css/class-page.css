@@ -9,6 +9,31 @@
 .wrapper .class-page h2 {
   text-align: center;
   margin: 35px 0 10px;
+  font-size: 1.5vw;
+}
+@media screen and (max-width: 1728px) {
+  .wrapper .class-page h2 {
+    font-size: 1.5vw;
+  }
+}
+.wrapper .class-page p {
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  font-family: "robotoregular";
+  margin: 4% 0;
+}
+@media screen and (max-width: 1728px) {
+  .wrapper .class-page p {
+    font-size: 0.9vw;
+    line-height: 1.5vw;
+  }
+}
+@media screen and (max-width: 430px) {
+  .wrapper .class-page p {
+    font-size: 3.7vw;
+    line-height: 5.5vw;
+  }
 }
 .wrapper .class-page .c1 {
   position: relative;
@@ -47,6 +72,11 @@
 .wrapper .class-page .c1 .video video {
   height: 315px;
 }
+@media screen and (max-width: 1728px) {
+  .wrapper .class-page .c1 .video video {
+    height: 18.2vw;
+  }
+}
 .wrapper .class-page .c1 .video img {
   position: absolute;
   top: 50%;
@@ -82,7 +112,7 @@
 }
 @media screen and (max-width: 1728px) {
   .wrapper .class-page .c1 .the-content h1 {
-    font-size: 1.5vw;
+    font-size: 2vw;
     line-height: 2vw;
   }
 }
@@ -101,8 +131,8 @@
 }
 @media screen and (max-width: 1728px) {
   .wrapper .class-page .c1 .the-content p {
-    font-size: 1vw;
-    line-height: 1.4vw;
+    font-size: 0.9vw;
+    line-height: 1.5vw;
   }
 }
 @media screen and (max-width: 430px) {
@@ -153,6 +183,17 @@
   list-style-position: inside;
   text-align: left;
 }
+@media screen and (max-width: 1728px) {
+  .wrapper .class-page .c2 ol,
+  .wrapper .class-page .c3 ol,
+  .wrapper .class-page .c4 ol,
+  .wrapper .class-page .c2 ul,
+  .wrapper .class-page .c3 ul,
+  .wrapper .class-page .c4 ul {
+    line-height: 1.5vw;
+    font-size: 0.9vw;
+  }
+}
 .wrapper .class-page .c3 {
   margin: 40px 0 0 0;
 }
@@ -181,5 +222,10 @@
 }
 .wrapper .class-page .c4 ul:first-of-type {
   margin: 0 40px 0 0;
+}
+@media screen and (max-width: 1728px) {
+  .wrapper .class-page .c4 ul:first-of-type {
+    margin: 0 3vw 0 0;
+  }
 }
 /*# sourceMappingURL=css/class-page.css.map */

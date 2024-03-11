@@ -6,8 +6,27 @@
     margin: 0 auto;
 
     h2 {
+      @media screen and (max-width:1728px) {
+        font-size: 1.5vw;
+      }
       text-align: center;
       margin: 35px 0 10px;
+      font-size: 1.5vw;
+    }
+    p {
+      @media screen and (max-width: 1728px) {
+        font-size: .9vw;
+        line-height: 1.5vw;
+      }
+      @media screen and (max-width: 430px) {
+        font-size: 3.7vw;
+        line-height: 5.5vw;
+      }
+      font-size: 16px;
+      line-height: 24px;
+      color: #000;
+      font-family: "robotoregular";
+      margin: 4% 0;
     }
 
     .c1 {
@@ -44,6 +63,9 @@
         text-align: center;
 
         video {
+          @media screen and (max-width:1728px) {
+            height:18.2vw;
+          }
           height: 315px;
         }
         img {
@@ -73,7 +95,7 @@
 
         h1 {
           @media screen and (max-width: 1728px) {
-            font-size: 1.5vw;
+            font-size: 2vw;
             line-height: 2vw;
           }
           @media screen and (max-width: 430px) {
@@ -89,8 +111,8 @@
 
         p {
           @media screen and (max-width: 1728px) {
-            font-size: 1vw;
-            line-height: 1.4vw;
+            font-size: .9vw;
+            line-height: 1.5vw;
           }
           @media screen and (max-width: 430px) {
             font-size: 3.7vw;
@@ -135,6 +157,10 @@
         margin: 0 0 40px;
       }
       ol, ul {
+        @media screen and (max-width:1728px) {
+          line-height: 1.5vw;
+          font-size: .9vw;
+        }
         padding: 0;
         list-style-position: inside;
         text-align: left;
@@ -171,6 +197,9 @@
             text-align: left;
 
             &:first-of-type {
+              @media  screen and (max-width: 1728px) {
+                margin: 0 3vw 0 0;
+              }
                 margin: 0 40px 0 0;
             }
         }
