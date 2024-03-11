@@ -34,6 +34,11 @@
     line-height: 1.5vw !important;
   }
 }
+@media screen and (max-width: 821px) {
+  .wrapper .class-page p {
+    text-align: center !important;
+  }
+}
 @media screen and (max-width: 430px) {
   .wrapper .class-page p {
     font-size: 3.7vw;
