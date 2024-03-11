@@ -6,6 +6,11 @@
   width: 1030px;
   margin: 0 auto;
 }
+@media screen and (max-width: 1728px) {
+  .wrapper .class-page {
+    width: 100%;
+  }
+}
 .wrapper .class-page h2 {
   text-align: center;
   margin: 35px 0 10px;
