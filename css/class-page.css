@@ -19,6 +19,7 @@
 @media screen and (max-width: 1728px) {
   .wrapper .class-page h2 {
     font-size: 1.5vw;
+    margin: 2vw 0 1vw;
   }
 }
 .wrapper .class-page p {
@@ -32,9 +33,10 @@
   .wrapper .class-page p {
     font-size: 0.9vw !important;
     line-height: 1.5vw !important;
+    margin: 2vw 0 !important;
   }
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1441px) {
   .wrapper .class-page p {
     text-align: center !important;
   }
@@ -96,6 +98,11 @@
   position: absolute;
   top: 50%;
   transform: translate(0px, -50%);
+}
+@media screen and (max-width: 1728px) {
+  .wrapper .class-page .c1 .video img {
+    left: 3.8vw;
+  }
 }
 .wrapper .class-page .c1 .video img.left {
   left: 66px;
@@ -238,6 +245,11 @@
 .wrapper .class-page .c4 {
   text-align: center;
   margin: 20px 0;
+}
+@media screen and (max-width: 1728px) {
+  .wrapper .class-page .c4 img {
+    width: 7.2vw;
+  }
 }
 .wrapper .class-page .c4 p {
   text-align: center;
