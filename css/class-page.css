@@ -101,7 +101,7 @@
 }
 @media screen and (max-width: 1728px) {
   .wrapper .class-page .c1 .video img {
-    left: 3.8vw;
+    width: 3.8vw;
   }
 }
 .wrapper .class-page .c1 .video img.left {
